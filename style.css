@@ -75,6 +75,10 @@
         padding-right: 5%;
         width: 90%;
     }
+    .left{
+        width:100%;
+        display: inline;
+    }
 }
 
 
