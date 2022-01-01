@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    font-family:"Open Sans", sans-serif;
+
+    width: 100%;
+
+}
+.left{
+    padding-left: 1%;
+    width: 18%;
+    float: left;
+    overflow:hidden;
+
+}
+.right{
+    border: 10px;
+    padding-left: 1%;
+    float: right;
+    padding-right: 1%;
+    width: 79%;
+
+}
+.left ul {
+    padding-top: 5px;
+    padding-left: 5px;
+
+    padding-right: 5px;
+    list-style-type: none;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+}
+.left ul li a{
+    padding-right: 30px;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.left ul li a:hover{
+    background-color: yellow;
+}
+.right .logo{
+    padding-top: 5px;
+    text-align: center;
+}
+.right .yazı{
+    padding-top: 5px;
+    
+}
+.right .yazı h2{
+    padding-top: 4px;
+    font-family: sans-serif;
+    padding-bottom: 4px;
+}
+.right .footer{
+    text-align: center;
+}
+.right .footer p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.right .footer a{
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .right{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+}
+
+
+
+
+
